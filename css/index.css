@@ -1,0 +1,92 @@
+
+/* Personalización de la barra de navegación */
+.navbar {
+    background-color: #00695c;
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #ffcc00 !important;
+}
+
+.nav-item.active .nav-link {
+    font-weight: bold;
+}
+
+
+
+
+/* Estilo general para el contenido dentro de <main> */
+main {
+    font-family: "Times New Roman", Times, serif; /* Tipo de letra Times New Roman*/
+    font-size: 17px; /* Tamaño de fuente */
+    line-height: 1.6; /* Espaciado entre líneas */
+    color: #333; /* Color de texto principal */
+}
+
+/* Estilo para los encabezados dentro de <main> */
+main h1,
+main h2,
+main h3 {
+    color: #00695c; /* Color de los encabezados */
+    margin-bottom: 1.5rem; /* Margen inferior */
+}
+
+/* Estilo para los párrafos dentro de <main> */
+main p {
+    margin-bottom: 1rem; /* Margen inferior */
+}
+
+/* Estilo para las imágenes dentro de <main> */
+main img {
+    max-width: 100%; /* Ajusta el ancho máximo de las imágenes */
+    height: auto; /* Ajusta automáticamente la altura */
+    display: block; /* Asegura que las imágenes sean bloques para el margen automático */
+    margin-bottom: 1rem; /* Margen inferior */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #00695c;
+    color: white; /* Para asegurar que el texto sea visible sobre el fondo oscuro */
+    padding: 20px 0; /* Añade un poco de espacio alrededor del contenido del footer */
+}
+
+footer {
+    background-color: #00695c;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer p {
+    color: #ffffff;
+}
+
+footer a:hover {
+    color: #ffcc00;
+}
+
+
+
+
+
+
+
