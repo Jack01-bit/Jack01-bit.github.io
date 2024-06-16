@@ -9,41 +9,40 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Estilos personalizados -->
     <link rel="stylesheet" href="./css/index.css">
-    <!--  CEO  -->
+    <!-- CEO -->
     <meta name="keywords" content="dengue, Tegucigalpa, Honduras, prevención del dengue, síntomas del dengue, tratamiento del dengue, salud pública, enfermedades tropicales, Centroamérica">
     <meta name="description" content="Información sobre el dengue en Tegucigalpa, Honduras, incluyendo métodos de prevención, síntomas, tratamiento y medidas de salud pública para combatir esta enfermedad tropical.">
     <style>
-        .content-wrapper {
-            display: flex;
-            justify-content: space-between;
-        }
-        .content-text {
+        .content-left {
+            float: left;
             width: 60%;
-            padding-right: 20px;
         }
-        .content-media {
+        .content-right {
+            float: right;
             width: 35%;
-            border: 1px solid #ccc;
-            padding: 10px;
         }
-        .content-media iframe {
+        .content-right img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+        .content-right iframe {
             width: 100%;
             height: auto;
         }
-        .content-media img {
-            width: 100%;
-            height: auto;
-            margin-top: 10px;
+        .clear {
+            clear: both;
         }
         ul {
-            list-style-type: none; /* Remove default list style */
+            list-style-type: none;
+            padding-left: 0;
         }
         ul li {
             text-align: left;
-            margin-bottom: 10px;
         }
     </style>
 </head>
+
 <body>
     <header>
         <!-- Navbar -->
@@ -82,39 +81,42 @@
             <div class="container">
                 <h1 class="jumbotron-heading">Tratamiento del Dengue</h1>
                 <p class="lead text-muted">El tratamiento del dengue se centra principalmente en aliviar los síntomas y prevenir complicaciones graves. Aquí tienes una descripción detallada sobre el tratamiento del dengue:</p>
-                <div class="content-wrapper">
-                    <div class="content-text">
-                        <h2>Manejo de los Síntomas</h2>
-                        <ul>
-                            <li><strong>Fiebre y Dolor:</strong> Se recomienda el uso de paracetamol para reducir la fiebre y aliviar el dolor. Los medicamentos que contienen aspirina o ibuprofeno deben evitarse.</li>
-                            <li><strong>Náuseas y Vómitos:</strong> Descansar y consumir una dieta suave. En casos de vómitos persistentes, el médico puede recetar medicamentos antieméticos.</li>
-                            <li><strong>Dolor Muscular y Articular:</strong> Descansar y aplicar compresas frías o bolsas de hielo en las áreas doloridas.</li>
-                        </ul>
-                        <h2>Monitoreo Médico</h2>
-                        <ul>
-                            <li><strong>Evaluación Regular:</strong> Controlar la temperatura corporal y realizar análisis de sangre periódicos para evaluar los niveles de plaquetas y la función hepática.</li>
-                            <li><strong>Identificación de Complicaciones:</strong> Estar alerta a los signos de alarma que indican la progresión a formas graves de dengue.</li>
-                        </ul>
-                        <h2>Tratamiento Hospitalario</h2>
-                        <ul>
-                            <li><strong>Fluidoterapia:</strong> Administrar líquidos intravenosos para corregir la deshidratación y mantener la presión arterial.</li>
-                            <li><strong>Transfusión de Plaquetas:</strong> En casos de dengue grave con recuentos bajos de plaquetas, puede ser necesario administrar transfusiones de plaquetas.</li>
-                        </ul>
-                        <h2>Seguimiento Posterior</h2>
-                        <ul>
-                            <li><strong>Convalecencia:</strong> Permitir un período de convalecencia adecuado después del alta hospitalaria.</li>
-                            <li>Realizar visitas de seguimiento con el médico para evaluar la recuperación.</li>
-                        </ul>
-                    </div>
-                    <div class="content-media">
-                        <iframe src="https://www.youtube.com/embed/SSQU2BqFmsg" title="Qué hacer para recuperarse más rápido del dengue" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                       <ul>
-                        <img src="https://visiondesdecuba.files.wordpress.com/2015/08/infografia-dengue.jpg" alt="El amor en tiempos de cólera… y dengue (+ Infografía) – Visión desde Cuba">
-                     </ul>
-                    </div>
-                </div>
             </div>
         </section>
+
+        <div class="container">
+            <div class="content-left">
+                <h2>Manejo de los Síntomas</h2>
+                <ul>
+                    <li><strong>Fiebre y Dolor:</strong> Se recomienda el uso de paracetamol para reducir la fiebre y aliviar el dolor. Los medicamentos que contienen aspirina o ibuprofeno deben evitarse.</li>
+                    <li><strong>Náuseas y Vómitos:</strong> Descansar y consumir una dieta suave. En casos de vómitos persistentes, el médico puede recetar medicamentos antieméticos.</li>
+                    <li><strong>Dolor Muscular y Articular:</strong> Descansar y aplicar compresas frías o bolsas de hielo en las áreas doloridas.</li>
+                </ul>
+
+                <h2>Monitoreo Médico</h2>
+                <ul>
+                    <li><strong>Evaluación Regular:</strong> Controlar la temperatura corporal y realizar análisis de sangre periódicos para evaluar los niveles de plaquetas y la función hepática.</li>
+                    <li><strong>Identificación de Complicaciones:</strong> Estar alerta a los signos de alarma que indican la progresión a formas graves de dengue.</li>
+                </ul>
+
+                <h2>Tratamiento Hospitalario</h2>
+                <ul>
+                    <li><strong>Fluidoterapia:</strong> Administrar líquidos intravenosos para corregir la deshidratación y mantener la presión arterial.</li>
+                    <li><strong>Transfusión de Plaquetas:</strong> En casos de dengue grave con recuentos bajos de plaquetas, puede ser necesario administrar transfusiones de plaquetas.</li>
+                </ul>
+
+                <h2>Seguimiento Posterior</h2>
+                <ul>
+                    <li><strong>Convalecencia:</strong> Permitir un período de convalecencia adecuado después del alta hospitalaria.</li>
+                    <li><strong>Seguimiento Médico:</strong> Realizar visitas de seguimiento con el médico para evaluar la recuperación.</li>
+                </ul>
+            </div>
+            <div class="content-right">
+                <iframe src="https://www.youtube.com/embed/SSQU2BqFmsg" title="Qué hacer para recuperarse más rápido del dengue" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <img src="https://visiondesdecuba.wordpress.com/wp-content/uploads/2015/08/infografia-dengue.jpg" alt="El amor en tiempos de cólera… y dengue (+ Infografía)">
+            </div>
+            <div class="clear"></div>
+        </div>
     </main>
 
     <footer class="text-muted">
